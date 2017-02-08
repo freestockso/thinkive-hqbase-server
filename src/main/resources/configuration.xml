@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<system>
+    <category name="data" description="数据配置">
+        <item name="store" value="d:/tempdata/download/" description="本地存放目录，需要有可写权限"/>
+    </category>
+
+    <category name="DownloadFileConfig">
+        <item name="NeedDepressFile" value="base.zip" description="下载后需要解压缩的文件,多个文件用‘|’分割"/>
+    </category>
+
+    <category name="DownloadURL" description="下载地址，name后缀为zip的将自动执行解压操作">
+        <item name="base.zip" value="http://59.175.238.39/products/data/data/dbf/base.zip"
+              description="base.zip下载地址"/>
+        <item name="full.FIN" value="http://222.73.103.183/platform/download/FIN/full.FIN"
+              description="base.zip下载地址"/>
+        <item name="full.PWR" value="http://222.73.103.183/platform/download/PWR/full.PWR"
+              description="base.zip下载地址"/>
+        <item name="full.ABK" value="http://222.73.103.183/platform/download/ABK/full.ABK"
+              description="base.zip下载地址"/>
+        <item name="inc.ABK" value="http://222.73.103.183/platform/download_HK/download/ABK/inc.ABK"
+              description="base.zip下载地址"/>
+    </category>
+
+</system>
+
